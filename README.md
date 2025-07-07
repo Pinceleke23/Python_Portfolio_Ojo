@@ -477,7 +477,6 @@ plot(x, y2, ax, 'Increase in mean fortune 500 company profits from 1955 to 2005'
 ![png](output_17_0.png)
 
 
-
 ```python
 def plot_with_std(x, y, stds, ax, title, y_label):
     ax.fill_between(x, y - stds, y + stds, alpha = 0.2)
